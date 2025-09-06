@@ -1,0 +1,119 @@
+/* Reset e tipografia */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Todo site*/
+body{
+     background-color: #f0f2f5; /* Cor de fundo opcional */
+}
+
+
+/*Layout principal */
+main{
+    padding-top: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: 70%;
+    margin: 0 auto;
+    gap: 120px;
+}
+
+/* Logo e texto motivador */
+#face{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+#face p{
+    margin: 0;
+    padding-left: 30px;
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+
+/* Caixa de Login */
+#box{
+    background-color: white;
+    border-radius: 10px;
+    border-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 500px;
+    height: 420px;
+    box-shadow: 0px 0px 10px rgb(184, 184, 184);
+}
+
+.campo{
+    margin-top: 5px;
+    background-color: white;
+    padding: 25px 0px;
+    width: 92%;
+    border: 2px solid rgb(239, 239, 239);
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 5%;
+}
+
+#senha{
+    margin: auto;
+}
+
+#entrar{
+    background-color: rgb(30, 128, 255);
+    height: 60px;
+    width: 98%;
+    border: solid, transparent;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+
+
+#new {
+    background-color: #38ca1e;
+    height: 50px;
+    width: 45%;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza verticalmente */
+    cursor: pointer;
+}
+
+#new:hover{
+    background-color: #32b21b;
+    transition-delay:0.01s;
+}
+
+/* atualizaçao no codigo
+ - font-family no *
+ - hr com de 1 pixel com cor solida
+ - links sem decoraçao e ajuste das cores
+ -justify-content center no main
+ - gap de 120 pixels no main
+*/
+
+hr{
+    border: 1px solid rgb(211, 211, 211);
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(42, 85, 225);
+}
